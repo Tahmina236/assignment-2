@@ -414,6 +414,7 @@ font-size: 14px;
 font-weight: 400;
 }
 /* BMI Table and cal styling starts */
+
 .bmi-part-container{
   max-width: 1440px;
   /* width: 100%; */
@@ -536,9 +537,193 @@ color: rgba(255, 255, 255, 0.6);
 #black{
   color: black;
 }
+/* meet the members part styling */
+.team-members-container{
+  width: 50%;
+  height: 104px;
+  border: 2px solid rebeccapurple;
+  margin: 0 auto;
+}
+.meet-team{
 
+}
+.meet-team h3{
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-bottom: 18px;
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+}
+.meet-team p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  /* margin-bottom: 10px; */
+  /* margin-bottom: 40px; */
+}
+.gray-sec-container{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  height: 640px ;
+  /* border: 1px solid red; */
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  /* padding: 10px 20px; */
+  backdrop-filter: blur(20px);
+  background: rgba(34, 34, 34, 0.7);
+  margin-bottom: 20px;
+}
+.display-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 20px;
+}
+.team-image{
+  background-image: url(../images/trainer1.png);
+  border-radius: 18px;
+  background-size: cover;
+  height: 280px;
+  width: 410px;
+  margin-top: 20px;
+  margin-left: 20px;
+  opacity: 0.8;
+  
+}
+.team-image h5{
+  color: white;
+  font-size: 25px;
+  padding-top: 210px;
+}
+.team-image p{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+}
+.team-image-two{
+  background-image: url(../images/trainer2.png);
+  border-radius: 18px;
+  background-size: cover;
+  /* object-fit: none; */
+  background-position: 50% 30%;
+  /* background-repeat: no-repeat; */
+  height: 280px;
+  width: 410px;
+  margin-top: 20px;
+  margin-left: 20px;
+  opacity: 0.8;
+}
+.team-image-two h5{
+  color: white;
+  font-size: 25px;
+  margin-top: 210px;
+}
+.team-image-two p{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+}
+.team-image-three{
+  background-image: url(../images/trainer3.png);
+  border-radius: 18px;
+  background-size: cover;
+  /* object-fit: none; */
+  background-position: 50% 10%;
+  /* background-repeat: no-repeat; */
+  height: 280px;
+  width: 410px;
+  margin-top: 20px;
+  margin-left: 20px;
+  opacity: 0.8;
+}
+.team-image-three h5{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin-top: 210px;
+}
+.team-image-three p{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+}
+.team-image-four{
+  background-image: url(../images/trainer4.png);
+  border-radius: 18px;
+  background-size: cover;
+  /* object-fit: none; */
+  background-position: 80% 10%;
+  /* background-repeat: no-repeat; */
+  height: 280px;
+  width: 410px;
+  margin-left: 20px;
+  margin-top: 20px;
+  opacity: 0.8;
+}
+.team-image-four h5{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin-top: 210px;
+}
+.team-image-four p{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+}
+.team-image-five{
+  background-image: url(../images/trainer5.png);
+  border-radius: 18px;
+  background-size: cover;
+  /* object-fit: none; */
+  background-position: 50% 40%;
+  /* background-repeat: no-repeat; */
+  height: 280px;
+  width: 412px;
+  margin-top: 20px;
+  margin-left: 15px;
+  opacity: 0.8;
+}
+.team-image-five h5{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin-top: 210px;
+}
+.team-image-five p{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+}
+.team-image-six{
+  background-image: url(../images/trainer6.png);
+  border-radius: 18px;
+  background-size: cover;
+  /* object-fit: none; */
+  background-position: 60% 30%;
+  /* background-repeat: no-repeat; */
+  height: 280px;
+  width: 412px;
+  margin-top: 20px;
+  margin-left: 15px;
+  opacity: 0.8;
+}
+.team-image-six h5{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin-top: 210px;
+}
+.team-image-six p{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+}
 /* media query */
 @media screen and (max-width: 576px) {
+/* team members section styling */
+.display-grid{
+  grid-template-columns: repeat(1, 1fr);
+}
+
+
+
+
+
+
 
 /* BMI table and calc styling */
 .bmi-part-container{
@@ -708,7 +893,7 @@ input{
   }
   .navbar-container {
     width: 100%;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     /* margin: 0px; */
   }
 
@@ -762,7 +947,7 @@ input{
   .first-container {
     width: 90%;
     margin: 0 auto;
-    height: 1007px;
+    height: 1030px;
     /* border: 2px solid red; */
     /* margin: 0; */
   }
