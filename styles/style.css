@@ -541,7 +541,7 @@ color: rgba(255, 255, 255, 0.6);
 .team-members-container{
   width: 50%;
   height: 104px;
-  border: 2px solid rebeccapurple;
+  /* border: 2px solid rebeccapurple; */
   margin: 0 auto;
 }
 .meet-team{
@@ -712,172 +712,67 @@ color: rgba(255, 255, 255, 0.6);
   color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
 }
-/* media query */
-@media screen and (max-width: 576px) {
-/* team members section styling */
-.display-grid{
-  grid-template-columns: repeat(1, 1fr);
-}
-
-
-
-
-
-
-
-/* BMI table and calc styling */
-.bmi-part-container{
-  width: 90%;
-  height: auto;
-  /* margin: 0; */
-}
-.bmi-part-content{
-  width: 100%;
-  margin: 0;
-  /* margin-left: 3px; */
-  /* width: 100%; */
-}
-.display{
-  grid-template-columns: repeat(1, 1fr);
-}
-.bmi-part-content{
-  height: auto;
-  /* width: 70%; */
-}
-.chart-text-table{
- margin-left: 15px;
-  margin-top: 0;
-}
-table{
-  width: 90%;
-}
-.calculator-content{
-width: 90%;
-margin-left: 10px;
-}
-input{
-  width: 90%;
-  margin: 6px;
-}
-#select-one{
-  width: 98%;
-  margin: 6px;
-}
-#select-two{
-  width: 100%
-  /* margin: 10px; */
-}
-.chart-text-table h4{
-  width: 90%;
-}
-.grid{
-  display: grid;
-  grid-template-columns: repeat(2, 2fr);}
-.btn-calculate{
-  margin-bottom: 20px;
-  /* width: 50%; */
-}
-
-
-
-/* 5th part */
-.bmi-text-container{
-  height: 140px;
-  width: 70%;
-  margin-top: 50px;
-  margin-bottom: 0;
-}
- .bmi-text p{
-  font-size: 13px;
-  margin-left: -38px;
- }
-  .bmi-text h3{
-    font-size: 40px;
-    margin-left: -38px;
-  }
-
-/* 4th part styling */
-.image-container{
-  grid-template-columns: repeat(1, 1fr);
-}
-.images img{
-  width: 100%;
-}
-
-.images-two img{
-  width: 100%;
-}
-.exercise-content {
-  width: 80%;
-}
-.exercise-container{
-  width: 78%;
+/* footer styling */
+.footer-container{
+  width: 1440px;
+  height: 490px;
+  /* border: 2px solid red; */
   margin: 0 auto;
-  height: auto;
-  margin-top: 30px;
+  background-color:rgba(255, 255, 255, 0.1);
+  margin-bottom: 40px;
+  margin-top: 50px;
 }
-  /* 3rd part starts */
-  .third-part-container{
-    /* border: 2px solid red; */
-    width: 90%;
-  }
-  .third-part {
-    flex-direction: column;
-    /* border: 2px solid red; */
-    /* justify-content: center; */
-    /* align-items: center; */
-  }
+.footer-texts{
+ display: flex;
+ gap: 50px;
+ justify-content: space-around;
+}
+.footer-fit h4{
+  color: rgb(230, 83, 60);
+  font-size: 60px;
+  font-weight: 800;
+  margin-top: 110px;
+  margin-bottom: 40px;
+}
+.footer-fit p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer-h h6{
+  margin-top: 110px;
+  margin-bottom: 40px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: 700;
+}
+.footer-h p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 19px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.hrr{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 70px;
+  width: 85%;
+  /* text-align: center; */
+  margin-left: 100px;
+}
+.p{
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 30px;
+text-align: center;
+}
 
-  .third-part-text {
-    width: 100%;
-    /* border: 2px solid red; */
-    /* text-align: center; */
-  }
 
-  .third-part-text h2 {
-    /* border: 2px solid red; */
-    font-size: 2.2rem;
-    /* margin-top: 4px; */
-    margin-left: 15px;
-    /* text-align: center; */
-  }
-  .third-part-text p {
-    /* border: 2px solid red; */
-    font-size: 1rem;
-    /* text-align: start; */
-    margin-left: 15px;
-  }
-  .btn-primary-third {
-    margin-top: 20px;
-    margin-left: 5px;
-    /* margin-right: -10px; */
-    text-align: center;
-    width: 90%;
-    /* border: 2px solid red; */
-  }
-  .third-part-content {
-    height: 600px;
-    width: 90%;
-    text-align: center;
-    /* border: 2px solid red; */
-    /* margin: 0 15px 0 15px; */
-  }
-  .third-part-image {
-    /* border: 2px solid red; */
-    width: 100%;
-    height: 0;
-    margin-left: 0;
-  }
-  .third-part-image img {
-    width: 90%;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    border-radius: 28px;
-    /* border: 2px solid red; */
-    padding: 0;
-    /* padding: 10px; */
-  }
+
+/* media query */
+
+@media screen and (max-width: 576px) {
 
   /* banner starts */
   body {
@@ -978,7 +873,9 @@ input{
     margin-left: -270px;
     /* border: 2px solid red; */
   }
+
   /* 2nd part starts */
+
   .second-part-img {
     flex-direction: column;
     gap: 20px;
@@ -1008,5 +905,228 @@ input{
     font-size: 0.9rem;
     /* border: 2px solid red; */
   }
+
+  /* 3rd part starts */
+
+  .third-part-container{
+    /* border: 2px solid red; */
+    width: 90%;
+  }
+  .third-part {
+    flex-direction: column;
+    /* border: 2px solid red; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+
+  .third-part-text {
+    width: 100%;
+    /* border: 2px solid red; */
+    /* text-align: center; */
+  }
+
+  .third-part-text h2 {
+    /* border: 2px solid red; */
+    font-size: 2.2rem;
+    /* margin-top: 4px; */
+    margin-left: 15px;
+    /* text-align: center; */
+  }
+  .third-part-text p {
+    /* border: 2px solid red; */
+    font-size: 1rem;
+    /* text-align: start; */
+    margin-left: 15px;
+  }
+  .btn-primary-third {
+    margin-top: 20px;
+    margin-left: 5px;
+    /* margin-right: -10px; */
+    text-align: center;
+    width: 90%;
+    /* border: 2px solid red; */
+  }
+  .third-part-content {
+    height: 600px;
+    width: 90%;
+    text-align: center;
+    /* border: 2px solid red; */
+    /* margin: 0 15px 0 15px; */
+  }
+  .third-part-image {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 0;
+    margin-left: 0;
+  }
+  .third-part-image img {
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    border-radius: 28px;
+    /* border: 2px solid red; */
+    padding: 0;
+    /* padding: 10px; */
+  }
+
+/* 4th part styling */
+.image-container{
+  grid-template-columns: repeat(1, 1fr);
+}
+.images img{
+  width: 100%;
+}
+
+.images-two img{
+  width: 100%;
+}
+.exercise-content {
+  width: 80%;
+}
+.exercise-container{
+  width: 78%;
+  margin: 0 auto;
+  height: auto;
+  margin-top: 30px;
+}
+/* 5th part */
+.bmi-text-container{
+  height: 140px;
+  width: 70%;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+ .bmi-text p{
+  font-size: 13px;
+  margin-left: -38px;
+ }
+  .bmi-text h3{
+    font-size: 40px;
+    margin-left: -38px;
+  }
+
+  /* BMI table and calc styling */
+.bmi-part-container{
+  width: 90%;
+  height: auto;
+  /* margin: 0; */
+}
+.bmi-part-content{
+  width: 100%;
+  margin: 0;
+  /* margin-left: 3px; */
+  /* width: 100%; */
+}
+.display{
+  grid-template-columns: repeat(1, 1fr);
+}
+.bmi-part-content{
+  height: auto;
+  /* width: 70%; */
+}
+.chart-text-table{
+ margin-left: 15px;
+  margin-top: 0;
+}
+table{
+  width: 90%;
+}
+.calculator-content{
+width: 90%;
+margin-left: 10px;
+}
+input{
+  width: 90%;
+  margin: 6px;
+}
+#select-one{
+  width: 98%;
+  margin: 6px;
+}
+#select-two{
+  width: 100%
+  /* margin: 10px; */
+}
+.chart-text-table h4{
+  width: 90%;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);}
+.btn-calculate{
+  margin-bottom: 20px;
+  /* width: 50%; */
+}
+
+  /* team members section styling */
+.display-grid{
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+}
+.gray-sec-container{
+  width: 80%;
+  height: 1830px;
+  margin-top: 30px;
+  /* margin: 0; */
+}
+.team-members-container{
+  width: 70%;
+}
+.meet-team h3{
+  margin: 0;
+  font-size: 38px;
+}
+.team-image{
+  /* padding-top: 10px; */
+}
+.team-image,.team-image-two,.team-image-three{
+  width: 80%;
+  margin: 0;
+  height: 90%;
+  margin-left: 33px;
+  margin-top: 30px;
+}
+.team-image-four,.team-image-five,.team-image-six{
+  width: 80%;
+  margin: 0;
+  margin-left: 33px;
+  height: 90%;
+  margin-top: 30px;
+}
+
+  /* footer */
+.footer-container{
+  width: 90%;
+  height: 810px;
+}
+.footer-texts{
+  flex-direction: column;
+  justify-content: none;
+  gap: 0;
+}
+.footer-fit h4{
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.footer-fit p{
+  margin-left: 20px;
+  /* font-size: 14px; */
+  width: 80%;
+}
+.footer-h h6{
+  margin-left: 20px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+.footer-h p{
+  margin-left: 20px;
+}
+.hrr{
+  margin-left: 25px;
+  margin-top: 40px;
+}
+
+
   
 }
