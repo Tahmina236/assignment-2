@@ -5,6 +5,7 @@
 body {
   font-family: "Inter", sans-serif;
   background-color: black;
+  border: 1px solid red;
 }
 .font {
   font-family: "Italianno", cursive;
@@ -20,7 +21,7 @@ body {
 .first-container {
   max-width: 1440px;
   /* width: 100%; */
-  border: 2px solid black;
+  border: 2px solid;
   min-height: 715px;
   margin: 0 auto;
   background: linear-gradient(360deg, rgb(17, 17, 17), rgba(119, 119, 119, 0));
@@ -195,6 +196,7 @@ body {
   height: 650px;
   /* background-color: black; */
   margin: 0 auto;
+  border: 1px solid red;
 }
 .second {
   text-align: center;
@@ -270,7 +272,7 @@ body {
   /* height: 380px; */
   /* border: 1px solid red; */
   margin: 0px auto;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid red;
   border-radius: 18px;
   /* padding: 10px 20px; */
   backdrop-filter: blur(20px);
@@ -329,64 +331,61 @@ body {
 /* 3rd part ends */
 
 /* 4th part styling */
-.exercise-container{
+.exercise-container {
   width: 85%;
   height: 670px;
-  /* border: 1px solid rebeccapurple; */
+  border: 1px solid red;
   margin: 30px auto;
-
 }
-.exercise-content{
-color: white;
-/* width: 50%; */
+.exercise-content {
+  color: white;
+  /* width: 50%; */
 }
-.exercise-content h2{
+.exercise-content h2 {
   color: rgb(255, 255, 255);
   font-size: 48px;
   font-weight: 900;
   margin-bottom: 20px;
 }
-.exercise-content p{
+.exercise-content p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 42px;
 }
-.images img{
-  width: 413px;
-  height: 240px;
-  /* width: 100%; */
-  border-radius: 20px; 
-  position: relative;
-}
-.images p{
-position: absolute;
-margin-bottom: 50px;
-margin-top: -220px;
-margin-left: 20px;
-color: black;
-font-weight: 600;
-}
-.images-two img{
+.images img {
   width: 413px;
   height: 240px;
   /* width: 100%; */
   border-radius: 20px;
   position: relative;
-  
 }
-.images-two p{
+.images p {
+  position: absolute;
+  margin-bottom: 50px;
+  margin-top: -220px;
+  margin-left: 20px;
+  color: black;
+  font-weight: 600;
+}
+.images-two img {
+  width: 413px;
+  height: 240px;
+  /* width: 100%; */
+  border-radius: 20px;
+  position: relative;
+}
+.images-two p {
   position: absolute;
   margin-top: -40px;
   margin-left: 6px;
   font-weight: 500;
   color: white;
- 
 }
-.exercise-name{
+.exercise-name {
   color: white;
 }
-.image-container{
+.image-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -394,59 +393,58 @@ font-weight: 600;
 /* 4th section ends here */
 
 /* 5th section styling starts */
-.bmi-text-container{
+.bmi-text-container {
   width: 50%;
   height: 100px;
-  /* border: 2px solid rebeccapurple; */
+  border: 2px solid red;
   margin-top: 68px;
   margin: 0 auto;
   margin-bottom: 68px;
 }
-.bmi-text h3{
+.bmi-text h3 {
   color: white;
   font-size: 48px;
-font-weight: 900;
-margin-bottom: 20px;
+  font-weight: 900;
+  margin-bottom: 20px;
 }
-.bmi-text p{
+.bmi-text p {
   color: rgba(255, 255, 255, 0.5);
-font-size: 14px;
-font-weight: 400;
+  font-size: 14px;
+  font-weight: 400;
 }
 /* BMI Table and cal styling starts */
 
-.bmi-part-container{
+.bmi-part-container {
   max-width: 1440px;
   /* width: 100%; */
   height: 500px;
-  /* border: 2px solid rebeccapurple; */
+  border: 2px solid red;
   margin: 0 auto;
   margin-bottom: 60px;
   background: rgb(38, 38, 38);
 }
-.bmi-part-content{
+.bmi-part-content {
   width: 80%;
   /* padding: 20px 0; */
   height: 500px;
   margin: 0 auto;
   /* border: 2px solid rebeccapurple; */
-  
 }
-.display{
+.display {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-.chart-text-table{
+.chart-text-table {
   margin-left: 30px;
   margin-top: 40px;
   /* border: 1px solid red; */
 }
-.chart-text-table h4{
- color: white;
+.chart-text-table h4 {
+  color: white;
   font-size: 28px;
-font-weight: 900;
-margin-top: 30px;
-margin-bottom: 30px;
+  font-weight: 900;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 table {
   border-collapse: collapse;
@@ -459,68 +457,67 @@ th {
   text-align: start;
   /* color: white; */
 }
-td{
-  color:  rgb(199, 198, 198);
-  
+td {
+  color: rgb(199, 198, 198);
 }
-th{
+th {
   color: rgb(255, 252, 252);
 }
-.calculator-content{
+.calculator-content {
   margin-top: 70px;
   /* border: 1px solid red; */
 }
-.calculator-content h4{
+.calculator-content h4 {
   color: rgb(255, 255, 255);
-font-size: 28px;
-font-weight: 900;
-margin-bottom: 20px;
-margin-left: 5px;
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  margin-left: 5px;
 }
-.calculator-content p{
+.calculator-content p {
   color: rgba(255, 255, 255, 0.5);
-font-size: 14px;
-font-weight: 400;
-margin-bottom: 30px;
-margin-left: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  margin-left: 5px;
 }
-input{
-  margin:5px ;
+input {
+  margin: 5px;
   padding: 18px 4px;
   width: 241px;
   gap: 30px;
   /* border-radius: 18px; */
   border: 2px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1);
 }
-input::placeholder{
+input::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
-#select-one{
-  margin:5px ;
+#select-one {
+  margin: 5px;
   padding: 18px 0;
   width: 250px;
   gap: 20px;
   /* border-radius: 18px; */
   border: 2px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-background: rgba(255, 255, 255, 0.1);
-color: rgba(255, 255, 255, 0.6);
-text-align: left;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  text-align: left;
 }
-#select-two{
-  margin:5px ;
+#select-two {
+  margin: 5px;
   padding: 19px 0px;
   gap: 20px;
   width: 520px;
   /* border-radius: 18px; */
   border: 2px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-background: rgba(255, 255, 255, 0.1);
-color: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
 }
-.btn-calculate{
+.btn-calculate {
   border: 1px solid rgb(230, 83, 60);
   border-radius: 42px;
   background: rgb(230, 83, 60);
@@ -534,20 +531,19 @@ color: rgba(255, 255, 255, 0.6);
   margin-left: 5px;
   margin-top: 20px;
 }
-#black{
+#black {
   color: black;
 }
 /* meet the members part styling */
-.team-members-container{
+.team-members-container {
   width: 50%;
   height: 104px;
-  /* border: 2px solid rebeccapurple; */
+  border: 2px solid red;
   margin: 0 auto;
 }
-.meet-team{
-
+.meet-team {
 }
-.meet-team h3{
+.meet-team h3 {
   color: rgb(255, 255, 255);
   margin-top: 10px;
   margin-bottom: 18px;
@@ -555,7 +551,7 @@ color: rgba(255, 255, 255, 0.6);
   font-weight: 900;
   text-align: center;
 }
-.meet-team p{
+.meet-team p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
   font-weight: 400;
@@ -563,26 +559,26 @@ color: rgba(255, 255, 255, 0.6);
   /* margin-bottom: 10px; */
   /* margin-bottom: 40px; */
 }
-.gray-sec-container{
+.gray-sec-container {
   width: 90%;
   margin: 0 auto;
   margin-top: 30px;
-  height: 640px ;
+  height: 640px;
   /* border: 1px solid red; */
   border-radius: 18px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid red;
   border-radius: 18px;
   /* padding: 10px 20px; */
   backdrop-filter: blur(20px);
   background: rgba(34, 34, 34, 0.7);
   margin-bottom: 20px;
 }
-.display-grid{
+.display-grid {
   display: grid;
   grid-template-columns: repeat(3, 3fr);
   gap: 20px;
 }
-.team-image{
+.team-image {
   background-image: url(../images/trainer1.png);
   border-radius: 18px;
   background-size: cover;
@@ -591,18 +587,17 @@ color: rgba(255, 255, 255, 0.6);
   margin-top: 20px;
   margin-left: 20px;
   opacity: 0.8;
-  
 }
-.team-image h5{
+.team-image h5 {
   color: white;
   font-size: 25px;
   padding-top: 210px;
 }
-.team-image p{
+.team-image p {
   color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
 }
-.team-image-two{
+.team-image-two {
   background-image: url(../images/trainer2.png);
   border-radius: 18px;
   background-size: cover;
@@ -615,16 +610,16 @@ color: rgba(255, 255, 255, 0.6);
   margin-left: 20px;
   opacity: 0.8;
 }
-.team-image-two h5{
+.team-image-two h5 {
   color: white;
   font-size: 25px;
   margin-top: 210px;
 }
-.team-image-two p{
+.team-image-two p {
   color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
 }
-.team-image-three{
+.team-image-three {
   background-image: url(../images/trainer3.png);
   border-radius: 18px;
   background-size: cover;
@@ -637,16 +632,16 @@ color: rgba(255, 255, 255, 0.6);
   margin-left: 20px;
   opacity: 0.8;
 }
-.team-image-three h5{
+.team-image-three h5 {
   color: rgb(255, 255, 255);
   font-size: 25px;
   margin-top: 210px;
 }
-.team-image-three p{
+.team-image-three p {
   color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
 }
-.team-image-four{
+.team-image-four {
   background-image: url(../images/trainer4.png);
   border-radius: 18px;
   background-size: cover;
@@ -659,16 +654,16 @@ color: rgba(255, 255, 255, 0.6);
   margin-top: 20px;
   opacity: 0.8;
 }
-.team-image-four h5{
+.team-image-four h5 {
   color: rgb(255, 255, 255);
   font-size: 25px;
   margin-top: 210px;
 }
-.team-image-four p{
+.team-image-four p {
   color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
 }
-.team-image-five{
+.team-image-five {
   background-image: url(../images/trainer5.png);
   border-radius: 18px;
   background-size: cover;
@@ -681,16 +676,16 @@ color: rgba(255, 255, 255, 0.6);
   margin-left: 15px;
   opacity: 0.8;
 }
-.team-image-five h5{
+.team-image-five h5 {
   color: rgb(255, 255, 255);
   font-size: 25px;
   margin-top: 210px;
 }
-.team-image-five p{
+.team-image-five p {
   color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
 }
-.team-image-six{
+.team-image-six {
   background-image: url(../images/trainer6.png);
   border-radius: 18px;
   background-size: cover;
@@ -703,80 +698,77 @@ color: rgba(255, 255, 255, 0.6);
   margin-left: 15px;
   opacity: 0.8;
 }
-.team-image-six h5{
+.team-image-six h5 {
   color: rgb(255, 255, 255);
   font-size: 25px;
   margin-top: 210px;
 }
-.team-image-six p{
+.team-image-six p {
   color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
 }
 /* footer styling */
-.footer-container{
+.footer-container {
   width: 1440px;
   height: 490px;
-  /* border: 2px solid red; */
+  border: 2px solid red;
   margin: 0 auto;
-  background-color:rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
   margin-bottom: 40px;
   margin-top: 50px;
 }
-.footer-texts{
- display: flex;
- gap: 50px;
- justify-content: space-around;
+.footer-texts {
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
 }
-.footer-fit h4{
+.footer-fit h4 {
   color: rgb(230, 83, 60);
   font-size: 60px;
   font-weight: 800;
   margin-top: 110px;
   margin-bottom: 40px;
 }
-.footer-fit p{
+.footer-fit p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 16px;
   font-weight: 400;
 }
-.footer-h h6{
+.footer-h h6 {
   margin-top: 110px;
   margin-bottom: 40px;
   color: rgb(255, 255, 255);
   font-size: 25px;
   font-weight: 700;
 }
-.footer-h p{
+.footer-h p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 19px;
   font-weight: 400;
   margin-top: 10px;
 }
-.hrr{
+.hrr {
   border: 1px solid rgba(255, 255, 255, 0.1);
   margin-top: 70px;
   width: 85%;
   /* text-align: center; */
   margin-left: 100px;
 }
-.p{
+.p {
   color: rgba(255, 255, 255, 0.5);
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
   margin-top: 30px;
-text-align: center;
+  text-align: center;
 }
-
-
 
 /* media query */
 
 @media screen and (max-width: 576px) {
-
   /* banner starts */
   body {
-    padding: 0;
+    margin: 0 auto;
   }
   .nav-options {
     display: none;
@@ -846,16 +838,16 @@ text-align: center;
     /* border: 2px solid red; */
     /* margin: 0; */
   }
-  .btn{
+  .btn {
     padding: 12px 28px;
   }
-.btn-primary{
-  padding: 12px 25px;
-  /* height: 0; */
-  /* width: 0; */
-  /* padding: 5px 10px; */
-  /* margin-left: 10px; */
-}
+  .btn-primary {
+    padding: 12px 25px;
+    /* height: 0; */
+    /* width: 0; */
+    /* padding: 5px 10px; */
+    /* margin-left: 10px; */
+  }
   .btn-v {
     margin-top: 50px;
     height: 90px;
@@ -880,7 +872,7 @@ text-align: center;
     flex-direction: column;
     gap: 20px;
     margin-left: 0px;
-    
+
     /* border: 2px solid red; */
     /* padding: 20px; */
   }
@@ -908,7 +900,7 @@ text-align: center;
 
   /* 3rd part starts */
 
-  .third-part-container{
+  .third-part-container {
     /* border: 2px solid red; */
     width: 90%;
   }
@@ -970,163 +962,165 @@ text-align: center;
     /* padding: 10px; */
   }
 
-/* 4th part styling */
-.image-container{
-  grid-template-columns: repeat(1, 1fr);
-}
-.images img{
-  width: 100%;
-}
+  /* 4th part styling */
+  .image-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .images img {
+    width: 100%;
+  }
 
-.images-two img{
-  width: 100%;
-}
-.exercise-content {
-  width: 80%;
-}
-.exercise-container{
-  width: 78%;
-  margin: 0 auto;
-  height: auto;
-  margin-top: 30px;
-}
-/* 5th part */
-.bmi-text-container{
-  height: 140px;
-  width: 70%;
-  margin-top: 50px;
-  margin-bottom: 0;
-}
- .bmi-text p{
-  font-size: 13px;
-  margin-left: -38px;
- }
-  .bmi-text h3{
+  .images-two img {
+    width: 100%;
+  }
+  .exercise-content {
+    width: 80%;
+  }
+  .exercise-container {
+    width: 78%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 30px;
+  }
+  /* 5th part */
+  .bmi-text-container {
+    height: 140px;
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+  .bmi-text p {
+    font-size: 13px;
+    margin-left: -38px;
+  }
+  .bmi-text h3 {
     font-size: 40px;
     margin-left: -38px;
   }
 
   /* BMI table and calc styling */
-.bmi-part-container{
-  width: 90%;
-  height: auto;
-  /* margin: 0; */
-}
-.bmi-part-content{
-  width: 100%;
-  margin: 0;
-  /* margin-left: 3px; */
-  /* width: 100%; */
-}
-.display{
-  grid-template-columns: repeat(1, 1fr);
-}
-.bmi-part-content{
-  height: auto;
-  /* width: 70%; */
-}
-.chart-text-table{
- margin-left: 15px;
-  margin-top: 0;
-}
-table{
-  width: 90%;
-}
-.calculator-content{
-width: 90%;
-margin-left: 10px;
-}
-input{
-  width: 90%;
-  margin: 6px;
-}
-#select-one{
-  width: 98%;
-  margin: 6px;
-}
-#select-two{
-  width: 100%
-  /* margin: 10px; */
-}
-.chart-text-table h4{
-  width: 90%;
-}
-.grid{
-  display: grid;
-  grid-template-columns: repeat(2, 2fr);}
-.btn-calculate{
-  margin-bottom: 20px;
-  /* width: 50%; */
-}
+  .bmi-part-container {
+    width: 90%;
+    height: auto;
+    /* margin: 0; */
+  }
+  .bmi-part-content {
+    width: 100%;
+    margin: 0;
+    /* margin-left: 3px; */
+    /* width: 100%; */
+  }
+  .display {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .bmi-part-content {
+    height: auto;
+    /* width: 70%; */
+  }
+  .chart-text-table {
+    margin-left: 15px;
+    margin-top: 0;
+  }
+  table {
+    width: 90%;
+  }
+  .calculator-content {
+    width: 90%;
+    margin-left: 10px;
+  }
+  input {
+    width: 90%;
+    margin: 6px;
+  }
+  #select-one {
+    width: 98%;
+    margin: 6px;
+  }
+  #select-two {
+    width: 100%;
+    /* margin: 10px; */
+  }
+  .chart-text-table h4 {
+    width: 90%;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
+  .btn-calculate {
+    margin-bottom: 20px;
+    /* width: 50%; */
+  }
 
   /* team members section styling */
-.display-grid{
-  grid-template-columns: repeat(1, 1fr);
-  gap: 10px;
-}
-.gray-sec-container{
-  width: 80%;
-  height: 1830px;
-  margin-top: 30px;
-  /* margin: 0; */
-}
-.team-members-container{
-  width: 70%;
-}
-.meet-team h3{
-  margin: 0;
-  font-size: 38px;
-}
-.team-image{
-  /* padding-top: 10px; */
-}
-.team-image,.team-image-two,.team-image-three{
-  width: 80%;
-  margin: 0;
-  height: 90%;
-  margin-left: 33px;
-  margin-top: 30px;
-}
-.team-image-four,.team-image-five,.team-image-six{
-  width: 80%;
-  margin: 0;
-  margin-left: 33px;
-  height: 90%;
-  margin-top: 30px;
-}
+  .display-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  .gray-sec-container {
+    width: 80%;
+    height: 1830px;
+    margin-top: 30px;
+    /* margin: 0; */
+  }
+  .team-members-container {
+    width: 70%;
+  }
+  .meet-team h3 {
+    margin: 0;
+    font-size: 38px;
+  }
+  .team-image {
+    /* padding-top: 10px; */
+  }
+  .team-image,
+  .team-image-two,
+  .team-image-three {
+    width: 80%;
+    margin: 0;
+    height: 90%;
+    margin-left: 33px;
+    margin-top: 30px;
+  }
+  .team-image-four,
+  .team-image-five,
+  .team-image-six {
+    width: 80%;
+    margin: 0;
+    margin-left: 33px;
+    height: 90%;
+    margin-top: 30px;
+  }
 
   /* footer */
-.footer-container{
-  width: 90%;
-  height: 810px;
-}
-.footer-texts{
-  flex-direction: column;
-  justify-content: none;
-  gap: 0;
-}
-.footer-fit h4{
-  margin-left: 20px;
-  margin-top: 40px;
-}
-.footer-fit p{
-  margin-left: 20px;
-  /* font-size: 14px; */
-  width: 80%;
-}
-.footer-h h6{
-  margin-left: 20px;
-  margin-top: 60px;
-  margin-bottom: 0px;
-}
-.footer-h p{
-  margin-left: 20px;
-}
-.hrr{
-  margin-left: 25px;
-  margin-top: 40px;
-}
-
-
-  
+  .footer-container {
+    width: 90%;
+    height: 810px;
+  }
+  .footer-texts {
+    flex-direction: column;
+    justify-content: none;
+    gap: 0;
+  }
+  .footer-fit h4 {
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+  .footer-fit p {
+    margin-left: 20px;
+    /* font-size: 14px; */
+    width: 80%;
+  }
+  .footer-h h6 {
+    margin-left: 20px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+  }
+  .footer-h p {
+    margin-left: 20px;
+  }
+  .hrr {
+    margin-left: 25px;
+    margin-top: 40px;
+  }
 }
