@@ -9,7 +9,7 @@ body {
 }
 .font {
   font-family: "Italianno", cursive;
-  font-size: 8.75rem;
+  font-size: 140px;
   font-weight: 200;
 }
 * {
@@ -29,10 +29,10 @@ body {
 }
 .navbar-container {
   max-width: 90%;
-  margin: 2rem auto;
+  margin: 32px auto;
   margin-top: 48px;
   /* border: 2px solid rebeccapurple; */
-  border-radius: 1rem;
+  border-radius: 16px;
   /* margin-bottom: 80px; */
 }
 .orange {
@@ -54,13 +54,13 @@ body {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 800;
   margin-left: 27px;
 }
 .nav-options {
   display: flex;
-  gap: 3rem;
+  gap: 48px;
   justify-content: space-around;
   align-items: center;
   padding: 8px;
@@ -69,7 +69,7 @@ body {
   box-sizing: border-box;
   border: 2px solid rgba(255, 255, 255, 0.1);
   border-radius: 39px;
-  font-size: 1.2rem;
+  font-size: 19px;
   font-weight: 450;
   cursor: pointer;
 }
@@ -96,12 +96,12 @@ body {
 .banner-content h1 {
   margin-top: 30px;
   color: rgb(255, 255, 255);
-  font-size: 4.8rem;
+  font-size: 76px;
   font-weight: 900;
 }
 .banner-content p {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 1.1rem;
+  font-size: 17px;
   font-weight: 400;
   margin-top: 29px;
   margin-bottom: 29px;
@@ -123,7 +123,7 @@ a{
   /* height: 54px; */
   /* padding: 15px 30px; */
   color: white;
-  font-size: 1.1rem;
+  font-size: 17px;
   font-weight: 600;
 }
 .btn {
@@ -136,7 +136,7 @@ a{
   color: white;
   /* padding: 15px 30px; */
   /* margin-left: 25px; */
-  font-size: 1.1rem;
+  font-size: 17px;
   font-weight: 600;
 }
 .banner-img {
@@ -174,14 +174,14 @@ a{
 }
 #free-w-v-d {
   color: rgba(255, 255, 255, 0.65);
-  font-size: 0.9rem;
+  font-size: 15px;
   font-weight: 400;
   background: none;
   backdrop-filter: blur(10px);
 }
 #free-w-v {
   color: rgba(255, 255, 255, 0.65);
-  font-size: 0.9rem;
+  font-size: 15px;
   font-weight: 400;
   background: none;
   backdrop-filter: blur(10px);
@@ -189,7 +189,7 @@ a{
 }
 #five-hund {
   color: rgb(255, 255, 255);
-  font-size: 2.4rem;
+  font-size: 38px;
   font-weight: 900;
   background: none;
   margin-bottom: 5px;
@@ -293,7 +293,7 @@ a{
 }
 .third-part-text h2 {
   color: rgb(255, 255, 255);
-  font-size: 3.3rem;
+  font-size: 52px;
   font-weight: 900;
   text-align: left;
   margin-top: 60px;
@@ -302,7 +302,7 @@ a{
 .third-part-text p {
   color: rgba(253, 225, 225, 0.5);
   font-family: Inter;
-  font-size: 0.8rem;
+  font-size: 14px;
   font-weight: 400;
   margin-top: 20px;
   text-align: left;
@@ -316,7 +316,7 @@ a{
   height: 54px;
   /* padding: 15px 30px; */
   color: white;
-  font-size: 1.1rem;
+  font-size: 18px;
   font-weight: 600;
   margin-left: 80px;
   margin-top: 30px;
@@ -532,7 +532,7 @@ input::placeholder {
   /* height: 54px; */
   /* padding: 15px 30px; */
   color: white;
-  font-size: 1.1rem;
+  font-size: 17px;
   font-weight: 540;
   margin-left: 5px;
   margin-top: 20px;
@@ -814,16 +814,16 @@ input::placeholder {
     /* border: 2px solid red; */
   }
   .banner-text h1 {
-    font-size: 2.9rem;
+    font-size: 47px;
     margin-left: 10px;
     /* border: 2px solid red; */
   }
   .font {
-    font-size: 4rem;
+    font-size: 64px;
   }
 
   .banner-text p {
-    font-size: 1.2rem;
+    font-size: 18px;
     /* font-weight: 250px; */
     margin-left: 10px;
     /* border: 2px solid red; */
@@ -844,7 +844,7 @@ input::placeholder {
   .first-container {
     width: 90%;
     margin: 0 auto;
-    height: 980px;
+    height: 974px;
     /* border: 2px solid red; */
     /* margin: 0; */
   }
@@ -875,6 +875,10 @@ input::placeholder {
     margin-left: -270px;
     /* border: 2px solid red; */
   }
+  #free-w-v-d {
+    font-size: 14px;
+    /* border: 2px solid red; */
+  }
 
   /* 2nd part starts */
 
@@ -903,10 +907,7 @@ input::placeholder {
     /* margin-top: 250px; */
     /* border: 2px solid red; */
   }
-  #free-w-v-d {
-    font-size: 0.9rem;
-    /* border: 2px solid red; */
-  }
+  
 
   /* 3rd part starts */
 
@@ -929,14 +930,14 @@ input::placeholder {
 
   .third-part-text h2 {
     /* border: 2px solid red; */
-    font-size: 2.2rem;
+    font-size: 37px;
     /* margin-top: 4px; */
     margin-left: 15px;
     /* text-align: center; */
   }
   .third-part-text p {
     /* border: 2px solid red; */
-    font-size: 1rem;
+    font-size: 16px;
     /* text-align: start; */
     margin-left: 15px;
   }
@@ -1047,7 +1048,7 @@ input::placeholder {
     margin: 6px;
   }
   #select-two {
-    width: 100%;
+    width: 99%;
     /* margin: 10px; */
   }
   .chart-text-table h4 {
