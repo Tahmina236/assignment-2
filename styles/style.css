@@ -411,6 +411,7 @@ a{
   font-size: 48px;
   font-weight: 900;
   margin-bottom: 20px;
+  text-align: center;
 }
 .bmi-text p {
   color: rgba(255, 255, 255, 0.5);
@@ -719,7 +720,7 @@ input::placeholder {
   /* border: 2px solid red; */
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.1);
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   margin-top: 50px;
 }
 .footer-texts {
@@ -1004,7 +1005,7 @@ input::placeholder {
   }
   .bmi-text h3 {
     font-size: 40px;
-    margin-left: -38px;
+    margin-left: -80px;
   }
 
   /* BMI table and calc styling */
@@ -1104,7 +1105,7 @@ input::placeholder {
   .footer-container {
     width: 90%;
     height: 810px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
   }
   .footer-texts {
     flex-direction: column;
