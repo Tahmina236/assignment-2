@@ -417,6 +417,7 @@ a{
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
   font-weight: 400;
+  text-align: center;
 }
 /* BMI Table and cal styling starts */
 
@@ -1003,6 +1004,7 @@ input::placeholder {
   }
   .bmi-text p {
     font-size: 13px;
+    text-align: start;
     /* margin-left: -38px; */
   }
   .bmi-text h3 {
