@@ -996,17 +996,19 @@ input::placeholder {
   /* 5th part */
   .bmi-text-container {
     height: 140px;
-    width: 70%;
+    width: 90%;
     margin-top: 50px;
     margin-bottom: 0;
+    /* border: 2px solid red; */
   }
   .bmi-text p {
     font-size: 13px;
-    margin-left: -38px;
+    /* margin-left: -38px; */
   }
   .bmi-text h3 {
     font-size: 40px;
-    margin-left: -80px;
+    text-align: start;
+    /* margin-left: -80px; */
   }
 
   /* BMI table and calc styling */
